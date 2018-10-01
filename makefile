@@ -1,7 +1,7 @@
 all: README.md
 
 README.md: guessinggame.sh 
-	echo "# Guessing Game" > README.md
+	echo "# $$(basename "$$PWD")" > README.md # Dynamic reading of current directory name.
 	echo "" >> README.md
 	echo "The last time \`make\` was run was: $(shell date +%r" "%A", "%d" "%B" "%Y)" >> README.md
 	echo "" >> README.md
