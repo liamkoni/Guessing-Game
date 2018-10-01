@@ -1,6 +1,5 @@
 # Guessing Game
 
-The last time make[1]: Entering directory '/home/liam/guessinggame'
-make[1]: Nothing to be done for 'all'.
-make[1]: Leaving directory '/home/liam/guessinggame' was run was: 
+The last time `make` was run was: 12:52:30 PM Monday, 01 October 2018
 
+The number of lines of code in guessinggame.sh is: 25
